@@ -10,8 +10,8 @@ const Header = () => {
         <Link href={"/"}>
           <h1
             className="text-2xl font-semibold"
-            aria-label="Save GD">
-            save GD
+            aria-label="App Name">
+            Save GD
           </h1>
         </Link>
 
