@@ -1,6 +1,7 @@
 import Header from "@/components/Header/Header";
 import ThemeProvider from "@/components/Providers/ThemeProvider";
 import { geistMono, geistSans } from "@/lib/fonts";
+import Link from "next/link";
 import { ReactNode } from "react";
 import "./globals.css";
 
@@ -22,6 +23,28 @@ const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
           <Header />
 
           <main className="mx-auto max-w-7xl px-6 py-3">{children}</main>
+
+          <footer className="border-t">
+            <div className="text-muted-foreground mx-auto flex max-w-7xl flex-wrap items-center gap-4 px-6 py-5 text-sm">
+              <Link
+                href="/privacy"
+                className="hover:text-foreground">
+                Privacy Policy
+              </Link>
+              <Link
+                href="/terms"
+                className="hover:text-foreground">
+                Terms of Service
+              </Link>
+              <a
+                href="https://github.com/swarnava-ghosh/savegd"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-foreground">
+                GitHub Repository
+              </a>
+            </div>
+          </footer>
         </ThemeProvider>
       </body>
     </html>
