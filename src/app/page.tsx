@@ -40,18 +40,16 @@ const page = () => {
           </div>
         </div>
 
-        <div className="bg-card rounded-xl border p-3 shadow-sm">
-          <div className="flex justify-center">
-            <Image
-              src="/hero-image.png"
-              alt="SaveGD extension preview"
-              width={1024}
-              height={1024}
-              priority
-              quality={100}
-              className="h-auto w-full max-w-[560px] rounded-lg object-contain"
-            />
-          </div>
+        <div className="flex justify-center">
+          <Image
+            src="/hero-image.png"
+            alt="SaveGD extension preview"
+            width={1024}
+            height={1024}
+            priority
+            quality={100}
+            className="h-auto w-full max-w-[560px] object-contain"
+          />
         </div>
       </section>
 
