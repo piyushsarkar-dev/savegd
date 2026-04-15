@@ -22,6 +22,7 @@ const page = () => {
             lightweight, privacy-focused sync workflow without leaving the
             editor.
           </p>
+          
           <div className="flex flex-wrap items-center gap-3 pt-2">
             <a
               href="https://marketplace.visualstudio.com/"
