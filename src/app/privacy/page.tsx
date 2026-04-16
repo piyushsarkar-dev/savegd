@@ -84,6 +84,29 @@ const PrivacyPage = () => {
       </section>
 
       <section className="space-y-3">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          Google API Services Compliance
+        </h2>
+        <p className="text-muted-foreground">
+          SaveGD&apos;s use and transfer of information received from Google
+          APIs adheres to the Google API Services User Data Policy, including
+          the Limited Use requirements. Google user data is used only to provide
+          user-requested sync features and is not used for advertising.
+        </p>
+      </section>
+
+      <section className="space-y-3">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          Trademark Notice
+        </h2>
+        <p className="text-muted-foreground">
+          SaveGD is an independent product and is not affiliated with or
+          endorsed by Google LLC. Google and Google Drive are trademarks of
+          Google LLC.
+        </p>
+      </section>
+
+      <section className="space-y-3">
         <h2 className="text-2xl font-semibold tracking-tight">User Control</h2>
         <p className="text-muted-foreground">
           Users control which files or folders are synced and can enable or
@@ -95,7 +118,7 @@ const PrivacyPage = () => {
       <section className="space-y-3">
         <h2 className="text-2xl font-semibold tracking-tight">Contact</h2>
         <p className="text-muted-foreground">
-          For privacy questions, contact: support@savegd.dev
+          For privacy questions, contact: hi.mrpiyush@gmai.com
         </p>
       </section>
     </div>

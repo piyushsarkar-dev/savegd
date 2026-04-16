@@ -1,9 +1,20 @@
 import Header from "@/components/Header/Header";
 import ThemeProvider from "@/components/Providers/ThemeProvider";
 import { geistMono, geistSans } from "@/lib/fonts";
+import { Metadata } from "next";
 import Link from "next/link";
 import { ReactNode } from "react";
 import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "SaveGD",
+  description: "SaveGD syncs your files to Google Drive from VS Code.",
+  icons: {
+    icon: "/favi-icon.png",
+    shortcut: "/favi-icon.png",
+    apple: "/favi-icon.png",
+  },
+};
 
 type RootLayoutProps = {
   children: ReactNode;

@@ -92,6 +92,17 @@ const TermsPage = () => {
       </section>
 
       <section className="space-y-3">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          Third-Party Service and Trademarks
+        </h2>
+        <p className="text-muted-foreground">
+          SaveGD integrates with Google services but is an independent product
+          and is not affiliated with or endorsed by Google LLC. Google and
+          Google Drive are trademarks of Google LLC.
+        </p>
+      </section>
+
+      <section className="space-y-3">
         <h2 className="text-2xl font-semibold tracking-tight">Updates</h2>
         <p className="text-muted-foreground">
           These terms may be updated from time to time. Continued use of SaveGD
@@ -103,7 +114,7 @@ const TermsPage = () => {
       <section className="space-y-3">
         <h2 className="text-2xl font-semibold tracking-tight">Contact</h2>
         <p className="text-muted-foreground">
-          For questions about these terms, contact: support@savegd.dev
+          For questions about these terms, contact: hi.mrpiyush@gmai.com
         </p>
       </section>
     </div>
