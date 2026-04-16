@@ -45,7 +45,6 @@ const Header = () => {
           />
           <h1 className="text-2xl font-semibold">Save GD</h1>
         </Link>
-
         <nav className="flex items-center gap-4">
           <Link href={"/"}>Home</Link>
 
