@@ -22,7 +22,6 @@ const page = () => {
             lightweight, privacy-focused sync workflow without leaving the
             editor.
           </p>
-          
           <div className="flex flex-wrap items-center gap-3 pt-2">
             <a
               href="https://marketplace.visualstudio.com/"
@@ -105,6 +104,14 @@ const page = () => {
               are uploaded.
             </p>
           </article>
+
+          <article className="rounded-lg border p-4 md:col-span-2 lg:col-span-1">
+            <h3 className="text-lg font-semibold">Quick Logout Option</h3>
+            <p className="text-muted-foreground mt-2 text-sm">
+              Sign out from your Google account anytime to immediately stop sync
+              access in the extension.
+            </p>
+          </article>
         </div>
       </section>
 
@@ -148,6 +155,11 @@ const page = () => {
             Review Privacy Policy
           </Link>
         </div>
+        <p className="text-muted-foreground text-xs">
+          SaveGD is an independent project and is not affiliated with or
+          endorsed by Google LLC. Google Drive and Google are trademarks of
+          Google LLC.
+        </p>
       </section>
     </div>
   );
