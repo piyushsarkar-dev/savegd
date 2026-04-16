@@ -114,7 +114,7 @@ const TermsPage = () => {
       <section className="space-y-3">
         <h2 className="text-2xl font-semibold tracking-tight">Contact</h2>
         <p className="text-muted-foreground">
-          For questions about these terms, contact: support@savegd.dev
+          For questions about these terms, contact: hi.mrpiyush@gmai.com
         </p>
       </section>
     </div>

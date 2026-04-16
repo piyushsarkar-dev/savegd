@@ -118,7 +118,7 @@ const PrivacyPage = () => {
       <section className="space-y-3">
         <h2 className="text-2xl font-semibold tracking-tight">Contact</h2>
         <p className="text-muted-foreground">
-          For privacy questions, contact: support@savegd.dev
+          For privacy questions, contact: hi.mrpiyush@gmai.com
         </p>
       </section>
     </div>

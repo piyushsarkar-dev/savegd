@@ -24,14 +24,12 @@ const page = () => {
           </p>
           <div className="flex flex-wrap items-center gap-3 pt-2">
             <a
-              href="https://marketplace.visualstudio.com/"
-              target="_blank"
-              rel="noreferrer"
+              href="vscode:extension/savegd.savegd"
               className="bg-primary text-primary-foreground rounded-md px-4 py-2 text-sm font-medium transition-opacity hover:opacity-90">
               Install Extension
             </a>
             <a
-              href="https://github.com/swarnava-ghosh/savegd"
+              href="https://github.com/piyushsarkar-dev/savegd"
               target="_blank"
               rel="noreferrer"
               className="hover:bg-accent rounded-md border px-4 py-2 text-sm font-medium transition-colors">
@@ -47,7 +45,6 @@ const page = () => {
             width={1024}
             height={1024}
             priority
-            quality={100}
             className="h-auto w-full max-w-[560px] object-contain"
           />
         </div>
@@ -143,9 +140,7 @@ const page = () => {
         </p>
         <div className="flex flex-wrap items-center gap-3">
           <a
-            href="https://marketplace.visualstudio.com/"
-            target="_blank"
-            rel="noreferrer"
+            href="vscode:extension/savegd.savegd"
             className="bg-primary text-primary-foreground rounded-md px-4 py-2 text-sm font-medium transition-opacity hover:opacity-90">
             Install Extension
           </a>

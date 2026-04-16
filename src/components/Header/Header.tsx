@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import ThemeToggleButton from "../ThemeToggleButton";
@@ -30,12 +31,19 @@ const Header = () => {
       }`}
       aria-label="app-header">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
-        <Link href={"/"}>
-          <h1
-            className="text-2xl font-semibold"
-            aria-label="App Name">
-            Save GD
-          </h1>
+        <Link
+          href={"/"}
+          className="flex items-center gap-2"
+          aria-label="App Name">
+          <Image
+            src="/hero-image.png"
+            alt="SaveGD Logo"
+            width={48}
+            height={48}
+            priority
+            className="h-7 w-7"
+          />
+          <h1 className="text-2xl font-semibold">Save GD</h1>
         </Link>
 
         <nav className="flex items-center gap-4">
