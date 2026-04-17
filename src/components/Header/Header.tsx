@@ -26,7 +26,7 @@ const Header = () => {
     <header
       className={`fixed right-0 left-0 z-50 transition-colors duration-300 ${
         isScrolled ?
-          "bg-background/95 border-b shadow supports-[backdrop-filter]:backdrop-blur"
+          "bg-background/95 border-b shadow supports-backdrop-filter:backdrop-blur"
         : "border-b-0 bg-transparent shadow-none"
       }`}
       aria-label="app-header">
@@ -38,10 +38,10 @@ const Header = () => {
           <Image
             src="/hero-image.png"
             alt="SaveGD Logo"
-            width={48}
-            height={48}
+            width={64}
+            height={64}
             priority
-            className="h-7 w-7"
+            className="h-11 w-11"
           />
           <h1 className="text-2xl font-semibold">Save GD</h1>
         </Link>
